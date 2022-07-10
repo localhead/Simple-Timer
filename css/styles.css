@@ -1,0 +1,133 @@
+* {
+  font-family: 'Azeret Mono', monospace;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ff6551;
+}
+
+.container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+.timer__block {
+  width: 170px;
+}
+
+.timer__block .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+  color: white;
+  height: 150px;
+  font-size: 105px;
+  padding-top: 15px;
+  width: auto;
+}
+
+.timer__block .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+
+.dot {
+  position: absolute;
+  color: white;
+  height: 150px;
+  font-size: 85px;
+  width: 0px;
+  margin-top: 12px;
+}
+
+.dot.first {
+  margin-left: 130px;
+}
+
+.dot.second {
+  margin-left: 304px;
+}
+
+.dot.third {
+  margin-left: 482px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1800px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.buttons .button {
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+  width: 180px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.buttons .button.start, .buttons .button.stop, .buttons .button.pause, .buttons .button.lap, .buttons .button.clearlaps {
+  color: white;
+  font-weight: 700;
+}
+
+.buttons .button.start:hover, .buttons .button.stop:hover, .buttons .button.pause:hover, .buttons .button.lap:hover, .buttons .button.clearlaps:hover {
+  background-color: #444444;
+  color: white;
+  cursor: pointer;
+}
+
+.results__block {
+  position: absolute;
+  left: 534px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+  top: 600px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.results__block .results {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=styles.css.map */
