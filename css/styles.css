@@ -1,10 +1,17 @@
 * {
-  font-family: 'Azeret Mono', monospace;
+  font-family: "Azeret Mono", monospace;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: #ff6551;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgb(62, 116, 138) 0%,
+    rgb(27, 65, 87) 100%
+  );
 }
 
 .container {
@@ -19,11 +26,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 700px;
   margin: 0 auto;
   margin-top: 250px;
@@ -38,10 +45,10 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   color: white;
   height: 150px;
   font-size: 105px;
@@ -84,11 +91,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 1800px;
   margin: 0 auto;
   margin-top: 100px;
@@ -104,12 +111,21 @@
   transition: 0.3s ease-in-out;
 }
 
-.buttons .button.start, .buttons .button.stop, .buttons .button.pause, .buttons .button.lap, .buttons .button.clearlaps {
-  color: white;
+.buttons .button.start,
+.buttons .button.stop,
+.buttons .button.pause,
+.buttons .button.lap,
+.buttons .button.clearlaps {
+  color: rgb(255, 255, 255);
   font-weight: 700;
+  background: none;
 }
 
-.buttons .button.start:hover, .buttons .button.stop:hover, .buttons .button.pause:hover, .buttons .button.lap:hover, .buttons .button.clearlaps:hover {
+.buttons .button.start:hover,
+.buttons .button.stop:hover,
+.buttons .button.pause:hover,
+.buttons .button.lap:hover,
+.buttons .button.clearlaps:hover {
   background-color: #444444;
   color: white;
   cursor: pointer;
