@@ -1,4 +1,4 @@
-# Simple-Timer
+# Simple Timer
 
 
 ![333](https://user-images.githubusercontent.com/33180512/181357666-23cbb50d-4281-4d69-a9a8-ac43586306f3.png)
